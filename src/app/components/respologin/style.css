@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(41, 41, 41);
+}
+
+.sub-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 748px;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-wrap: wrap-reverse;
+}
+
+.register {
+  /* set the image size to 25% of the parent div */
+  width: 25%;
+  background-color: rgba(0, 115, 255, 0.8);
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 225px;
+}
+
+.logger {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgba(0, 115, 255, 0.5);
+  color: white;
+  flex-shrink: 1;
+  flex-basis: 225px;
+  flex-grow: 5;
+}
+
+.custbutton {
+  background-color: rgba(0, 115, 255, 0.8);
+  border-radius: 5px;
+  padding: 8px;
+  max-width: fit-content;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  /* margin: 0 0 10px 0; */
+}
